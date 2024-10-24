@@ -1,8 +1,26 @@
-.redefinir-senha-pagina {
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('/assets/bgimg.png');
+    background-color: #ffffff;
+}
+
+.verificacao-pagina {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/bgimg.png');
     background-size: 100%;
     background-position: top;
     background-repeat: no-repeat;
@@ -11,24 +29,26 @@
     align-items: center;
     height: 100vh;
     position: relative;
+
 }
 
-.redefinir-senha-pagina .container {
+.verificacao-pagina .container {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.466);
+
 }
 
-.redefinir-senha-pagina .login-box {
+.verificacao-pagina .login-box {
+    top: -65px;
     background-color: #FFFFFF;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     width: 320px;
     position: relative;
 }
 
-.redefinir-senha-pagina .back-arrow {
+.verificacao-pagina .back-arrow {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -37,46 +57,42 @@
     text-decoration: none;
 }
 
-.redefinir-senha-pagina .logo {
-    width: 150px;
+.verificacao-pagina .logo {
+    width: 200px;
     margin-bottom: 20px;
 }
 
-.redefinir-senha-pagina h2 {
+.verificacao-pagina h2 {
     color: #000000;
     margin-bottom: 10px;
     font-size: 24px;
 }
 
-.redefinir-senha-pagina p {
+.verificacao-pagina p {
     color: #666666;
     margin-bottom: 30px;
     font-size: 14px;
 }
 
-.redefinir-senha-pagina .input-group {
+.verificacao-pagina .input-group {
     margin-bottom: 20px;
-    text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
 
-.redefinir-senha-pagina .input-group label {
-    display: block;
-    color: #666666;
-    margin-bottom: 5px;
-    font-size: 14px;
-}
-
-.redefinir-senha-pagina .password-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #666666;
+.verificacao-pagina .input-group input {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #00000038;
     border-radius: 5px;
-    font-size: 14px;
-    box-sizing: border-box;
-    color: #000;
+
+    font-size: 24px;
+    background-color: #DDDDDD;
 }
 
-.redefinir-senha-pagina button {
+.verificacao-pagina button {
     width: 100%;
     padding: 12px;
     background-color: #D4A518;
@@ -88,6 +104,6 @@
     margin-top: 20px;
 }
 
-.redefinir-senha-pagina button:hover {
+.verificacao-pagina button:hover {
     background-color: #b48c12;
 }

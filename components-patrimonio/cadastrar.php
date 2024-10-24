@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <form method="POST" action="" enctype="multipart/form-data">
                 <div class="form-group-patrimonio">
                     <label for="codigo">Código</label>
-                    <input type="number" id="codigo" name="codigo" placeholder="Código do patrimônio" required>
+                    <input type="text" id="codigo" name="codigo" placeholder="Código do patrimônio" required>
                 </div>
                 <div class="form-group-patrimonio">
                     <label for="fabricante">Fabricante</label>

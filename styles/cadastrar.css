@@ -5,7 +5,6 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    cursor: pointer;
 }
 
 
@@ -69,9 +68,10 @@
     justify-content: center;
     align-items: center;
     border: 2px dashed #D4A518;
-    position: relative; 
-    cursor: pointer; 
+    position: relative;
+    cursor: pointer;
 }
+
 .image-placeholder-patrimonio {
     width: 700px;
     height: 500px;
@@ -80,32 +80,32 @@
     justify-content: center;
     align-items: center;
     border: 2px dashed #D4A518;
-    position: relative; 
-    cursor: pointer; 
+    position: relative;
+    cursor: pointer;
 }
 
 .image-placeholder-patrimonio img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .image-placeholder-patrimonio span {
     font-size: 48px;
     color: #002060;
-    position: absolute; 
-    z-index: 1; 
+    position: absolute;
+    z-index: 1;
 }
 
 #remove-image {
     z-index: 1000;
     position: absolute;
-    top: 10px; 
-    right: 10px; 
+    top: 10px;
+    right: 10px;
     font-size: 24px;
     color: red;
-    cursor: pointer; 
-    display: none; 
+    cursor: pointer;
+    display: none;
 }
 
 
